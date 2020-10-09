@@ -1,0 +1,10 @@
+2 problemas basicos dessa sua app...
+
+Apesar De Cada Client Receber Um Id Unico... Qualquer Client Pode Usar O Mesmo "Author".
+Não Tem Um TimeOut Para Limpar As Mensagens O Que Provocará Um Sobre Carregamento De Dados Na Pagina Quando Varias Mensagens Ficarem Alojadas Em Memoria.
+
+Possiveis Soluções:
+
+Criar Sistema De Registo Para Cada Usuário. Podendo Assim Cada Client Interagir Entre Outros Em Privado, Melhor Controlo De Clients Para Evitar Infrigir Algumas Regras(Racismo, Preconceitos, Comportamentos Desviantes, etc.) Assim Podendo Dar Kick Do Chat/Ban Ou Ainda Um Poder Extra Para Admins/Moderadores.
+
+Criar Um Registo De Tempo Para Cada Mensagem Para Melhor Registo E Leitura Do Client E Para Auto Deletar-se Com Com Um Timeout Em 24 Evitando Assim Deletar Todas As Mensagens De Uma Vez Só E Criar Um App De Chat Automatizado E Dinamicamente Controlado.

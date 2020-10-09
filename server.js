@@ -19,8 +19,11 @@ let messages = []; // The place where the db should be here, your backend
 io.on("connection", (socket) => {
   console.log(`Socket conectado: ${socket.id}`);
 
+  socket.emit("previousMessages", messages);
+
   socket.on("sendMessage", (data) => {
     messages.push(data);
+    socket.broadcast.emit("receivedMessage", data);
   });
 });
 
